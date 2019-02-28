@@ -1,0 +1,26 @@
+.navbar-brand {
+    list-style: none;
+    display: block;
+    justify-content: left;
+    margin-left: -1400px;
+  }
+  .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .nav-link {
+      padding: 10px;
+      color: rgb(61, 112, 153);
+    }
+    
+    .nav-link:hover {
+      background: rgb(31, 56, 70);
+      color: white;
+    }
+    
+    .nav-link-selected {
+      background: hsl(101,43%,42%);
+      color: white;
+    }
